@@ -1,11 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * A program that prints _putchar, followed by a new line.
  *
  */
 int main() 
 {
-    printf("_putchar\n");
+    putchar('_');
+    putchar('p');
+    putchar('u');
+    putchar('t');
+    putchar('c');
+    putchar('h');
+    putchar('a');
+    putchar('r');
+    putchar('\n');
 
     return 0;
 }
