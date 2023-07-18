@@ -2,8 +2,9 @@
 /**
  * A program that prints _putchar, followed by a new line.
  *
+ * Always return 0
  */
-int main() 
+int main(void) 
 {
     putchar('_');
     putchar('p');
@@ -15,5 +16,5 @@ int main()
     putchar('r');
     putchar('\n');
 
-    return 0;
+    return (0);
 }
