@@ -1,8 +1,4 @@
-/*
- * File: 4-strpbrk.c
- */
-
-#include “main.h”
+#include "main.h"
 
 /**
  * _strpbrk - Searches a string for any of a set of bytes.
