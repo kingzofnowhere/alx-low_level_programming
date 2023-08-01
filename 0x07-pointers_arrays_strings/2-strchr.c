@@ -1,8 +1,5 @@
-/*
- * File: 2-strchr.c
- */
-
-#include “main.h”
+#include <stdio.h>
+#include "main.h"
 
 /**
  * _strchr - Locates a character in a string.
@@ -22,5 +19,5 @@ char *_strchr(char *s, char c)
 			return (s + index);
 	}
 
-	return ('\0');
+	return (NULL);
 }
